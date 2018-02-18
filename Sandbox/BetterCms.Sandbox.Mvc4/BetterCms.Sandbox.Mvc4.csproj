@@ -24,6 +24,7 @@
     <IISExpressUseClassicPipelineMode />
     <TargetFrameworkProfile />
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -277,6 +278,10 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Content Include="404.aspx" />
     <Content Include="500.aspx" />
+    <Content Include="App_Data\BetterCms.mdf" />
+    <Content Include="App_Data\BetterCms_log.ldf">
+      <DependentUpon>BetterCms.mdf</DependentUpon>
+    </Content>
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\knockout-2.2.1.debug.js" />

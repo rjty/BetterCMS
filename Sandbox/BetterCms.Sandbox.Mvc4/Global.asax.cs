@@ -37,6 +37,8 @@ using BetterCms.Core.Environment.Host;
 using BetterCms.Core.Modules.Projections;
 using BetterCms.Events;
 using BetterCms.Sandbox.Mvc4.Helpers;
+using System.Security.Principal;
+
 
 using Common.Logging;
 
